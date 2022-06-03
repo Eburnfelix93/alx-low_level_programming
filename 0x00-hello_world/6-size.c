@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * main - prints the size of data types
- * Returns 0 if executed properly
+ * main - Prints the size of various types based on
+ *        the computer it is compiled and run on..
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
