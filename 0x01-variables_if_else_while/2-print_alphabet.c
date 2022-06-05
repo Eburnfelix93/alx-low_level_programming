@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - Write a program that prints the alphabet in lowercase
+ * main - Prints the alphabet in lowercase.
  *
- * Return: 0.
+ * Return: Always 0.
  */
 int main(void)
 {
-char alpha
+	char alpha;
 
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-putchar(alpha);
-putchar('\n');
-return (0);
+	for (alpha = 'a'; alpha <= 'z' alpha++)
+		putchar(alpha);
+	putchar('\n');
+	return (0);
 }
