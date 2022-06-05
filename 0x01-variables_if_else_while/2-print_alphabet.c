@@ -4,11 +4,11 @@
  *
  * Return: Always 0.
  */
-int main(void)
+main()
 {
 	char alpha;
 
-	for (alpha = 'a'; alpha <= 'z' alpha++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 		putchar(alpha);
 	putchar('\n');
 	return (0);
