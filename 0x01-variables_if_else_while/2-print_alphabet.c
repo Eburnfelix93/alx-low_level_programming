@@ -6,16 +6,10 @@
  */
 int main(void)
 {
-char (alpha);
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+char alpha
 
 for (alpha = 'a'; alpha <= 'z'; alpha++)
-{
 putchar(alpha);
-}
 putchar('\n');
-
-getalpha();
+return (0);
 }
