@@ -13,7 +13,7 @@ for (z = 0; s[z] != '\0'; z++)
 ;
 i = 0;
 H = z / 2;
-while (half--)
+while (H--)
 {
 temp = s[z - i - 1];
 s[z - i - 1] = s[i];
