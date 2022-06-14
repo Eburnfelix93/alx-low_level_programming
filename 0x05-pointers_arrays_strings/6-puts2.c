@@ -12,7 +12,7 @@ int d;
 
 while (str[i] != '\0')
 {
-d++
+d++;
 }
 for (i = 0; i < d; i += 2)
 {
