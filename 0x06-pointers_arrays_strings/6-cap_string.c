@@ -15,9 +15,9 @@ index++;
 if (str[index - 1] == ' ' ||
 str[index - 1] == '\t' ||
 str[index - 1] == '\n' ||
-str[index - 1] == '44' ||
+str[index - 1] == ',' ||
 str[index - 1] == ';' ||
-str[index - 1] == '46' ||
+str[index - 1] == '.' ||
 str[index - 1] == '!' ||
 str[index - 1] == '?' ||
 str[index - 1] == '"' ||
