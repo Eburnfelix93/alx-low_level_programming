@@ -6,10 +6,10 @@
  *
  * Return: number of bytes in the init segment
  */
-
 unsigned int _strspn(char *s, char *accept)
+
 {
-unsigned int i = 0, x, z = 0;
+unsigned int i = 0, x, t = 0;
 
 while (accept[i])
 {
@@ -18,12 +18,11 @@ while (s[x] != 32)
 {
 if (accept[i] == s[x])
 {
-z++;
+t++;
 }
 x++;
 }
-i++
+i++;
 }
-return (z);
+return (t);
 }
-
