@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include "main.h"
-#include <ctype.h>
 /**
  * main - Program that takes in all integer arguments and returns the sum
  * @argc: Number of command line arguments
@@ -20,7 +19,6 @@ printf("0\n");
 else
 {
 sum = 0;
-
 for (i = 1; i < argc; i++)
 {
 ptr = argv[i];
@@ -31,6 +29,7 @@ if (isdigit(*(ptr + j)) == 0)
 {
 printf("Error\n");
 return (1);
+}
 }
 sum += atoi(argv[i]);
 }
